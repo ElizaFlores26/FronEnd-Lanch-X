@@ -1,0 +1,96 @@
+body{
+    background: #f1e7c5;
+}
+.inicio{
+    width: 100%;
+    height: 100%;
+    background: #ffdcba;
+}
+
+.logo{
+    text-align: center;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+  }
+
+.menu li {
+    text-align: center;
+    width: 125px;
+    height: 50px;
+}
+
+.menu a{  
+    text-decoration: none;
+    color:black;
+}
+
+.menu a:hover{
+    border-left: 0px solid transparent;
+    color:rgb(230, 24, 93);
+}
+
+.contacto{
+    padding: 50px;
+    text-align: center;
+    background-color:#ffdcba ;
+}
+
+.titulo{
+    color:#0ab1f3
+}
+
+.pedido{
+    padding:50px;
+    text-align: center; 
+}
+
+.pedido input{     
+    padding: 10px;
+    width: 400px;
+    height: 10px;
+    background: rgb(228, 190, 228);
+    border: 2px solid  rgb(250, 3, 238);
+}
+
+.pedido input[name="desc"]{
+    padding: 10px;
+    width: 400px;
+    height: 100px;
+    background: rgb(228, 190, 228);
+    border: 2px solid rgb(250, 3, 238);
+}
+.sabores{
+    display: flex;
+}
+
+.seleccionar{
+    text-align: left;
+    padding:50px;
+}
+.seleccionarDec{
+    text-align: right;
+    padding: 50px;
+}
+
+.seleccionar input{
+    text-align: justify;
+    width: 30px;
+}
+button{
+    padding: 10px;
+    width: 150px;
+    height: 50px;
+    background: white;
+    color:#a63e49  
+}
+
+button:hover{
+    border-left: 0px solid transparent;
+    color:white;
+    background: #a63e49;
+}
