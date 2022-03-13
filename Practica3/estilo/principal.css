@@ -1,0 +1,283 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    padding: 100px 20px 0;
+}
+
+.header{
+    background-color: white;
+    height: 90px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titulo{
+    font-size: 28px;
+    font-weight:bolder;
+    padding: 0 50px;
+    line-height: 90px;
+    color:rgba(0, 0, 255, 0.8);
+}
+
+.tituloF{
+    font-size: 28px;
+    font-weight:bolder;
+    padding: 0 50px;
+    color:rgba(0, 0, 255, 0.8);
+}
+
+.nav-menu{
+    display: flex;
+    margin-right: 110px;
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 90px;
+    text-transform: uppercase;
+    width: max-content;
+    font-weight:bolder;
+}
+
+.nav-menu-link{
+    padding: 15px 20px;
+    border-radius: 5px;
+    color:rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+}
+
+.nav-menu-fijo{
+    padding: 15px 20px;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    background-color: blue;
+}
+
+.nav-menu-link:hover{
+    background-color: blue;
+    color: aliceblue;
+    transition: 0.5s;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tituloFight{
+    font-size: 70px;
+    padding: 95px 10px 20px 20px;
+    color:rgba(9, 9, 88, 0.8);
+    font-weight: bold;
+}
+
+.Conten{
+    font-size: 20px;
+    padding: 10px 190px 10px 20px;
+    color:rgba(9, 9, 88, 0.5);
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.iconos1{ 
+    font-size: 20px;
+    padding: 20px 0 20px 20px;
+    color: rgba(17, 11, 3, 0.445);
+    
+}
+
+.iconos1 i{
+    color:yellow;
+    padding: 10px;
+}
+
+.icoInfo{
+    padding-top: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+.location{
+    padding-top: 90px;
+    color:#4608f0;
+}
+
+.schedule{
+    position: absolute;
+    display: inline-block;
+    z-index: 1;
+    background-color: rgb(245, 245, 245);
+    width: 900px;
+    height: 120px;
+    opacity: 80%;
+    box-shadow: -9px 15px 45px #5687eb;
+}
+.schedule i{
+    color:rgb(20, 20, 231);
+    padding: 5px;
+}
+
+.fondoCompleto{
+    width: 100%;
+}
+
+.tituBene{
+    font-size: 45px;
+    padding: 35px 10px 20px 20px;
+    color:rgba(9, 9, 88, 0.8);
+    font-weight: bold;  
+}
+
+.collection{
+    display: grid;
+    gap: 60px 60px;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    padding: 40px;
+}
+
+.collecConten{
+    font-size:18px;
+    color:rgba(9, 9, 88, 0.8);
+    line-height: 30px;
+}
+
+.collecConten i{
+    font-size: 25px;
+}
+
+.collecConten:hover{
+    transform: translate(-3px) scale(1.05);
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.4);
+    filter: none;
+    background: white;
+    color:rgba(70, 24, 32, 0.774);
+}
+
+.preparation img{
+    padding-top: 100px;
+}
+.preparation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.conPrepa{
+    padding: 50px;
+    color:rgba(9, 9, 88, 0.5);
+}
+
+.items{ 
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 90px;
+    list-style: none;
+}
+
+.emergency{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+.emergency img{
+    padding-top: 100px;
+}
+
+.collectionContac{
+    display: grid;
+    gap: 60px 60px;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding: 50px;
+}
+
+.contacto{
+    height: 200px;
+    width: 200px;
+    border: 2px solid  rgba(0, 0, 0, 0.2);
+    color:rgba(9, 9, 88, 0.5);
+    text-align: center;
+}
+
+.contacto p{
+    font-size: 11px;
+}
+
+.contacto .call{ 
+    padding: 30px;
+    display:flex;
+    justify-content: center;
+}
+
+.call i{
+    font-size: 30px;
+    color:blue;
+    padding: 10px;
+}
+
+
+.contacto button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    background: rgba(110, 223, 231, 0.226);
+    color:#4608f0;
+    border:none;
+}
+
+.contacto button:hover{
+    color:white;
+    border-left: 0px solid transparent;
+    background: #3437ee;
+}
+
+.piePagina{
+    padding-top: 90px;
+    height: 300px;
+    display:flex;
+    line-height: 40px;
+    justify-content: space-between;
+    background-color: rgba(110, 223, 231, 0.226);
+}
+
+.tabla {
+    padding-right: 200px;
+    display: flex;
+}
+
+.nav{
+    list-style: none;
+    color:rgb(15, 15, 240);
+}
+
+.link{
+    text-decoration: none;
+    color:rgba(9, 9, 88, 0.5);
+    font-size: 20px;
+}
+
+.final{
+    background-color:  rgba(110, 223, 231, 0.226);
+}
+
+.izquierda{
+    text-align: left;
+}
+
+.derecha{
+    text-align: right;
+}
