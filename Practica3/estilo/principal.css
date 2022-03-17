@@ -105,12 +105,6 @@ body{
     padding: 10px;
 }
 
-.icoInfo{
-    padding-top: 30px;
-    text-align: center;
-    line-height: 30px;
-}
-
 .location{
     padding-top: 90px;
     color:#4608f0;
@@ -119,16 +113,37 @@ body{
 .schedule{
     position: absolute;
     display: inline-block;
-    z-index: 1;
     background-color: rgb(245, 245, 245);
     width: 900px;
     height: 120px;
     opacity: 80%;
     box-shadow: -9px 15px 45px #5687eb;
 }
-.schedule i{
+.iconos{
     color:rgb(20, 20, 231);
     padding: 5px;
+    padding-top: 40px;
+}
+
+.lista li {
+    list-style: none;
+    display:inline;
+    padding-right: 70px;
+}
+
+.resp li{
+    list-style: none;
+    display:inline;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+.boton{
+    float: right;
+    font-size: 20px;
+    color:white;
+    background-color:rgba(22, 22, 233, 0.918);;
+    padding: 10px;
 }
 
 .fondoCompleto{
@@ -176,15 +191,35 @@ body{
     justify-content: space-between;
 }
 
+#flecha{
+    padding-top: 35px;
+    float:right;
+}
+
 .conPrepa{
     padding: 50px;
     color:rgba(9, 9, 88, 0.5);
 }
 
+.item .text{
+    display:none ;
+}
+
+.item:hover > p{
+    display:inline;
+    color:rgba(9, 9, 88, 0.5);
+   
+}
+
+.item:hover{
+    color:blue;
+    line-height: 30px;
+}
+
 .items{ 
     font-size: 20px;
     font-weight: bold;
-    line-height: 90px;
+    line-height: 70px;
     list-style: none;
 }
 
