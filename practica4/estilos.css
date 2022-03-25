@@ -1,0 +1,345 @@
+body{
+    margin: 0;
+    background-image: url(img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo img{
+   width: 300px;
+}
+
+.pokedex {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.poke-inicio{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 0 4px 12px -2px rgba(255, 0, 0, 0.4);
+}
+
+.pokedex-left {
+    background: red;
+    height: 600px;
+    width: 450px;
+    border-radius: 10px 10px 0 10px;
+    border: 1px solid black;
+    border-right: 10px solid black;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+
+.pokedex-right {
+    background: red;
+    height: 600px;
+    width: 450px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    padding: 15px 20px;
+}
+
+.pokedex-focos {
+    display: flex;
+    align-items: flex-start;
+}
+
+.luz-grande{
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+.luz-roja{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(248, 7, 7);
+    border-radius: 100%;
+    border: 1px solid black;
+    margin-right: 8px;
+
+}
+
+.luz-amarilla{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(248, 232, 7);
+    border-radius: 100%;
+    border: 1px solid black;
+    border-right: 5px;
+    margin-right: 8px;
+}
+
+
+.luz-verde{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(35, 248, 7);
+    border-radius: 100%;
+    border: 1px solid black;
+}
+
+.forma{
+    padding: 18px;
+    border-radius: 10px;
+    height: 250px;
+    background: linear-gradient(45deg, transparent 25px, rgb(80, 78, 78) 0)
+}
+
+.informacion{
+    padding: 10px;
+    height: 230px;
+    background: linear-gradient(45deg, transparent 25px, rgb(255, 255, 255) 0)
+
+}
+
+.pokeNombre{
+    background-color: rgba(170, 240, 240, 0.37);
+    border-style: dashed;
+    margin: 10px;
+}
+
+.pokeimg{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.pokeCarac{
+    float: right;
+    width: 49%;
+}
+
+#pokeImg{
+    width: 150px;
+    height: 150px;
+}
+
+.NombrePokemon{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+    margin: 8px;
+}
+
+.buscar{
+    margin-top: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+
+
+.detalle1{
+    width: 50px;
+    height: 10px;
+    background-color: red;
+    border-radius:30px 30px ;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.detalle2{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(7, 63, 248);
+    border-radius: 30px 30px;
+    border: 1px solid black;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.btnPokemon{
+    background-color: black;
+    color:white;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.entrada{
+    background-color: aqua;
+}
+
+#pokeName{
+    margin: 25px;
+    width: 150px;
+    height: 50px;
+    border-radius: 30px 30px;
+}
+
+.ent{
+    width: 50%;
+    float: left;
+}
+.cruz{
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: black;
+ }
+
+
+.titulo{
+   font-size: 12px; 
+   font-family:cursive;
+   color:rgb(0, 0, 0);
+}
+
+
+.estilo{
+    font-size: 12px;
+    font-family: 'Times New Roman', Times, serif;
+    color: cadetblue;
+}
+
+.estadis{
+    margin: 10px;
+    height: 200px;
+    background-color: #0a141b ;
+    border: 1px solid rgba(17, 0, 253, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    font-family: Courier New;
+}
+
+.titulos{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.titulo1{
+    text-shadow: 5px 5px 8px rgb(238, 255, 0);
+    color:white; 
+    font-family:'Courier New', Courier, monospace;
+}
+
+.estadisticas{
+    float:left;
+    font-size: 12px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.move{
+    font-size: 15px;
+    float:right;
+    width: 200px;
+    height: 150px;
+    overflow: auto;
+}
+
+.letras{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: rgba(8, 112, 230, 0.8);
+    padding: 5px;
+}
+
+.grid-item {
+    background-color: #2196F3 ;
+    border: 1px solid rgba(17, 0, 253, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.detallesIzq{
+    display: flex;
+    float: right;
+    align-items: flex-start;
+    width: 100px;
+    padding: 5px;
+}
+
+.detalle3{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(10, 252, 1);
+    border-radius:30px 30px ;
+    border: 1px solid black;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.detalle4{
+    width: 50px;
+    height: 10px;
+    background-color: rgb(7, 63, 248);
+    border-radius: 30px 30px;
+    border: 1px solid black;
+    margin-right: 8px;
+    margin-top: 5px;
+}
+
+.detallesDer{
+    width: 150px;
+}
+
+.cuadrados{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.blanco{
+    background-color: #ffffff ;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.PesoAltura{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 5px;
+}
+
+.peso{
+    display: flex;
+    background-color: rgb(19, 6, 6);
+    width: 150px;
+    align-items: flex-start;
+}
+
+.altura{
+    display: flex;
+    background-color: rgb(19, 6, 6);
+    width: 150px;
+    align-items: flex-start;
+}
+
+.title{
+    margin: 15px;
+    color:white
+}
+
+.datos{
+    margin: 15px;
+    color:white;
+}
+
+.pokeid{
+    height: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.tituloid{
+    height: 20px;
+}

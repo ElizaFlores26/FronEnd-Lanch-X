@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex LaunchX</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <div class="logo">
+    <img src="img/logo.png" alt="">
+  </div>
+
+  <div class="pokedex">
+      <div class ="poke-inicio">
+          <div class ="pokedex-left">
+            <div class ="pokedex-focos">
+              <div class="luz-grande"></div>
+              <div class="luz-roja"></div>
+              <div class="luz-amarilla"></div>
+              <div class="luz-verde"></div>
+            </div>
+            <br>
+            <div class="forma">
+              
+              <div class="informacion">
+                <div class="pokeNombre">
+                  <h3 id = "name" class = "NombrePokemon">Pokedex </h3>
+                </div>
+                <div class="pokeimg">
+                  <img src="img/descarga.png" alt="Pokemon" id="pokeImg">
+                  <div class="pokeid">
+                    <div class="tituloid">ID: </div>
+                    <div id= "id" class="id"></div>
+                  </div>
+
+                </div>
+                <div class="pokeCarac">
+                  <p class = "titulo">Tipo:</p>
+                  <div data-poke-types class="tipo"></div>  
+                  <p class = "titulo">Habilidades</p>
+                  <div  data-poke-habi class="habilidades"></div>
+                </div> 
+              </div>
+            </div>
+
+            <div class="buscar">
+              <button class = "btnPokemon" onclick="fetchPokemon()">Buscar</button>
+              <div class="detalle1"></div>
+              <div class="detalle2"></div>
+            </div>
+            <div class="entrada">
+              <div class="ent">
+                <input type="text" placeholder="ingresa el nombre del pokemon" id="pokeName" name="pokeName">
+              </div>
+              <div class="cruz"></div>
+            </div>
+            
+          </div>
+
+          <div class="pokedex-right">
+            <div  class="estadis">
+              <div class="titulos">
+                <p class="titulo1">Estadisticas: </p>
+                <p class="titulo1">Movimientos: </p>
+              </div>
+              <div data-poke-estad class = "estadisticas"></div>
+              
+              <div data-poke-move class="move"></div>
+            </div>
+
+            <div class="letras">
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+              <div class="grid-item"></div>
+            </div>
+
+            <div class="detallesIzq">
+              <div class="detalle3"></div>
+              <div class="detalle4"></div>
+            </div>
+
+            <div class="detallesDer">
+              <div class="cuadrados">
+                <div class="blanco"></div>
+                <div class="blanco"></div>
+              </div>
+            </div>
+
+            <div class="PesoAltura">
+              <div class="peso">
+                <p class = "title">Peso:</p>
+                <p id = "peso" class="datos"></p>  
+                <p class = datos>KG</p>
+              </div>
+              <div class="altura">
+                <p class = "title">altura:</p>
+                <p   id = "altura" class="datos"></p>
+                <p class = datos>M</p>
+              </div>
+            </div> 
+
+          </div>
+      </div>
+  </div>
+   
+</body>
+<footer>
+    <script src="./pokedex.js"></script>
+</footer>
+</html>
