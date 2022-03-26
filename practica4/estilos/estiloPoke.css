@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-image: url(img/fondo.jpg);
+    background-image: url(../img/fondo.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -31,7 +31,7 @@ body{
 
 .pokedex-left {
     background: red;
-    height: 600px;
+    height: 620px;
     width: 450px;
     border-radius: 10px 10px 0 10px;
     border: 1px solid black;
@@ -42,11 +42,13 @@ body{
 
 .pokedex-right {
     background: red;
-    height: 600px;
+    height: 520px;
     width: 450px;
     border: 1px solid black;
     box-sizing: border-box;
     padding: 15px 20px;
+    margin-top: 100px;
+    border-radius: 0 50px 50px 0;
 }
 
 .pokedex-focos {
@@ -95,20 +97,20 @@ body{
 .forma{
     padding: 18px;
     border-radius: 10px;
-    height: 250px;
+    height: 280px;
     background: linear-gradient(45deg, transparent 25px, rgb(80, 78, 78) 0)
 }
 
 .informacion{
     padding: 10px;
-    height: 230px;
+    height: 250px;
     background: linear-gradient(45deg, transparent 25px, rgb(255, 255, 255) 0)
 
 }
 
 .pokeNombre{
-    background-color: rgba(170, 240, 240, 0.37);
-    border-style: dashed;
+    background-color: rgb(105, 233, 233);
+    border-style:double;
     margin: 10px;
 }
 
@@ -170,15 +172,12 @@ body{
     border-radius: 100%;
 }
 
-.entrada{
-    background-color: aqua;
-}
-
 #pokeName{
     margin: 25px;
-    width: 150px;
+    width: 220px;
     height: 50px;
     border-radius: 30px 30px;
+    text-align: center;
 }
 
 .ent{
@@ -189,8 +188,27 @@ body{
     float: right;
     width: 100px;
     height: 100px;
-    background-color: black;
+    padding-right: 30px;
  }
+
+.grid-cruz{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.itemCruz2, .itemCruz4, .itemCruz5, .itemCruz6, .itemCruz8{
+    background-color: #000000 ;
+    border: 1px solid rgba(31, 31, 32, 0.8);
+    padding: 15px;
+    text-align: center;
+}
+
+.itemCruz1, .itemCruz3, .itemCruz7, .itemCruz9{
+    background-color: transparent ;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
 
 
 .titulo{
@@ -312,14 +330,14 @@ body{
 .peso{
     display: flex;
     background-color: rgb(19, 6, 6);
-    width: 150px;
+    width: 170px;
     align-items: flex-start;
 }
 
 .altura{
     display: flex;
     background-color: rgb(19, 6, 6);
-    width: 150px;
+    width: 170px;
     align-items: flex-start;
 }
 

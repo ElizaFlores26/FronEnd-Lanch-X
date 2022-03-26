@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokedex LaunchX</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos/estiloPoke.css">
 </head>
 <body>
   <div class="logo">
@@ -50,70 +50,85 @@
               <div class="detalle1"></div>
               <div class="detalle2"></div>
             </div>
+            <div class="cruz">
+              <div class="grid-cruz">
+                <div class="itemCruz1"></div>
+                <div class="itemCruz2"></div>
+                <div class="itemCruz3"></div>
+                <div class="itemCruz4"></div>
+                <div class="itemCruz5"></div>
+                <div class="itemCruz6"></div>
+                <div class="itemCruz7"></div>
+                <div class="itemCruz8"></div>
+                <div class="itemCruz9"></div>
+              </div>
+            </div>
             <div class="entrada">
               <div class="ent">
-                <input type="text" placeholder="ingresa el nombre del pokemon" id="pokeName" name="pokeName">
+                <input type="text" placeholder="ingresa el nombre o ID" id="pokeName" name="pokeName">
               </div>
-              <div class="cruz"></div>
             </div>
             
           </div>
 
           <div class="pokedex-right">
-            <div  class="estadis">
-              <div class="titulos">
-                <p class="titulo1">Estadisticas: </p>
-                <p class="titulo1">Movimientos: </p>
+            <div class="caracDere">
+
+              <div  class="estadis">
+                <div class="titulos">
+                  <p class="titulo1">Estadisticas: </p>
+                  <p class="titulo1">Movimientos: </p>
+                </div>
+                <div data-poke-estad class = "estadisticas"></div>
+                
+                <div data-poke-move class="move"></div>
               </div>
-              <div data-poke-estad class = "estadisticas"></div>
-              
-              <div data-poke-move class="move"></div>
-            </div>
-
-            <div class="letras">
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-              <div class="grid-item"></div>
-            </div>
-
-            <div class="detallesIzq">
-              <div class="detalle3"></div>
-              <div class="detalle4"></div>
-            </div>
-
-            <div class="detallesDer">
-              <div class="cuadrados">
-                <div class="blanco"></div>
-                <div class="blanco"></div>
+  
+              <div class="letras">
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
+                <div class="grid-item"></div>
               </div>
+  
+              <div class="detallesIzq">
+                <div class="detalle3"></div>
+                <div class="detalle4"></div>
+              </div>
+  
+              <div class="detallesDer">
+                <div class="cuadrados">
+                  <div class="blanco"></div>
+                  <div class="blanco"></div>
+                </div>
+              </div>
+  
+              <div class="PesoAltura">
+                <div class="peso">
+                  <p class = "title">Peso:</p>
+                  <p id = "peso" class="datos"></p>  
+                  <p class = datos>KG</p>
+                </div>
+                <div class="altura">
+                  <p class = "title">altura:</p>
+                  <p   id = "altura" class="datos"></p>
+                  <p class = datos>M</p>
+                </div>
+              </div> 
+
             </div>
-
-            <div class="PesoAltura">
-              <div class="peso">
-                <p class = "title">Peso:</p>
-                <p id = "peso" class="datos"></p>  
-                <p class = datos>KG</p>
-              </div>
-              <div class="altura">
-                <p class = "title">altura:</p>
-                <p   id = "altura" class="datos"></p>
-                <p class = datos>M</p>
-              </div>
-            </div> 
-
           </div>
       </div>
   </div>
    
 </body>
 <footer>
-    <script src="./pokedex.js"></script>
+    <script src="js/pokedex.js"></script>
 </footer>
 </html>

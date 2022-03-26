@@ -24,12 +24,13 @@ const fetchPokemon = () => {
 
             let pokeImg = data.sprites.front_default;
             let id = data.id;
+            let nombrePokemon = data.forms[0].name;
             let peso = data.weight;
             let altura = data.height;
             altura = altura / 10;
 
             pokeImage(pokeImg);
-            pokeInfo(pokeName, id);
+            pokeInfo(nombrePokemon, id);
             pokePesoAltura(peso, altura);
 
             console.log(pokeImg);
